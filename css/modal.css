@@ -1,0 +1,67 @@
+
+.modal-content-inverse{
+    background-color:#05203F;
+    color:#ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-dialog {
+
+    overflow: auto;
+    background-color:#333;
+}
+
+/* custom animation */
+/*.modal.fade {*/
+    /*left: -50%;*/
+    /*-webkit-transition: opacity 0.3s linear, left 0.3s ease-out;*/
+    /*-moz-transition: opacity 0.3s linear, left 0.3s ease-out;*/
+    /*-o-transition: opacity 0.3s linear, left 0.3s ease-out;*/
+    /*transition: opacity 0.3s linear, left 0.3s ease-out;*/
+/*}*/
+
+/*.modal.fade.in {*/
+    /*left: 100px;*/
+/*}*/
+
+.modal-title {
+    text-shadow: 1px 0 0 #fff;
+}
+
+
+.modal-footer {
+    padding: 0 14px 14px;
+     margin-top: 0;
+    text-align: right;
+     border-top: 0px solid #e5e5e5;
+}
+
+.modal-body {
+    padding-bottom: 0;
+    padding-right: 0;
+}
+
+.modal-header {
+    min-height: 16.428571429px;
+    padding: 15px;
+    border-bottom: 0 solid #e5e5e5;
+    padding-bottom: 0;
+}
+
+
+.modal.in .modal-dialog {
+    overflow: initial;
+}
+
+#book-ajax-btn {
+    width: 97.5%;
+}
+
+textarea#text {
+    width: 95%;
+    margin-left: 15px;
+    margin-bottom: 14px;
+}
+
+
+

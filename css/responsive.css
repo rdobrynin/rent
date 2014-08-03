@@ -43,6 +43,8 @@
     }
 }
 
+
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 
@@ -71,17 +73,28 @@
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 
+    .modal-body, .modal-footer {
+        margin-left: -29px !important;
+    }
+
     .thumb-wrapper {
-        width: 90%;
+        width: 88%;
     }
 
 
     aside {
         position: relative;
-        width: 100%;
+        width: 57%;
         bottom: 0;
         margin: 0 auto;
-        height: 373px;
+        height: auto;
+        background: none repeat scroll 0 0 rgba(6, 30, 61, 0.54);
+    }
+
+    aside , .thumb-wrapper {
+        border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
     }
 
     .slogan {
@@ -107,7 +120,15 @@
     }
 
     footer {
-        bottom: 20px;
+        bottom: 40px;
+        width: 90%;
+    }
+    .slogan, .region-title {
+        text-align: center;
+    }
+
+    hr {
+        width: 86%;
     }
 }
 
@@ -116,7 +137,7 @@
 
     aside {
         position: relative;
-        height: 300px;
+        height: auto;
         width: 100%;
         bottom: 0;
         margin: 0 auto;
@@ -132,6 +153,14 @@
     .region-title {
         font-weight: 400;
         font-size: 13px;
+    }
+
+    textarea#text  {
+        width: 92%;
+    }
+
+    #book-ajax-btn {
+        width: 95.5%;
     }
 
 
