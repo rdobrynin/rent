@@ -48,7 +48,7 @@ a, a:hover {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 20px;
-    background: url(../images/sidebar_photo@2x.jpg) no-repeat top;
+    background: url(../images/sidebar_photo.jpg) no-repeat top;
     background-size: 242px 150px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -137,7 +137,7 @@ aside {
 
 footer {
     position: absolute;
-    bottom: 79px;
+    bottom: 50px;
     left: 34px;
 }
 
@@ -159,7 +159,7 @@ text-transform: uppercase;
 .btn-primary {
     color: #fff;
     border-color: #357ebd;
-    background: #5083bc; /* Old browsers */
+    background: #215593; /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzUwODNiYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE2JSIgc3RvcC1jb2xvcj0iIzRhN2JiMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU0JSIgc3RvcC1jb2xvcj0iIzQyNzJhNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc3JSIgc3RvcC1jb2xvcj0iIzNiNmE5ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzODY2OTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
     background: -moz-linear-gradient(top,  #5083bc 0%, #4a7bb3 16%, #4272a7 54%, #3b6a9d 77%, #386699 100%); /* FF3.6+ */
@@ -200,5 +200,33 @@ margin-top: 25px;
     color: #a2acb8;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 30px;
+}
+
+/*RETINA*/
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+
+    .logo-sidebar {
+        background: url(../images/logo@2x.png) no-repeat center;
+        background-size: 94px 94px;
+        width: 100%;
+        height: 100px;
+    }
+
+
+    .thumb-container {
+        margin: 0 auto;
+        height: 150px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        background: url(../images/sidebar_photo@2x.jpg) no-repeat top;
+        background-size: 242px 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
 }
 
