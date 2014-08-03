@@ -7,6 +7,35 @@ $(window).on("load", function() {
 });
 
 $(function () {
+
+
+
+    $('#contact-page-form').validate(
+        {
+            rules: {
+                name: {
+                    minlength: 2,
+                    required: true
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                comments: {
+                    minlength: 15,
+                    required: true
+                }
+            },
+            highlight: function (element) {
+                $(element).closest('.form-group').removeClass('success').children(".help-block");
+            },
+            errorPlacement: function (error, element) {
+                error.appendTo(element.closest(".form-group").children(".error-block"));
+            }
+        });
+
+
+
     var images = [
         'images/bg@2x.jpg',
     ];
