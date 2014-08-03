@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="885f26eb-0ed7-4fcc-b623-02d3880bf7ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/logo@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/preview.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sidebar_photo@2x.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/responsive.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg.jpg" afterPath="$PROJECT_DIR$/images/bg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg@2x.jpg" afterPath="$PROJECT_DIR$/images/bg@2x.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,19 +43,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="2" selection-start="490" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="1850">
+            <state line="27" column="37" selection-start="635" selection-end="635" vertical-scroll-proportion="0.5651163" vertical-offset="0" max-vertical-offset="1850">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="responsive.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="19" selection-start="697" selection-end="697" vertical-scroll-proportion="0.618929" vertical-offset="277" max-vertical-offset="1937">
+            <state line="29" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="-4.2982454" vertical-offset="277" max-vertical-offset="1937">
               <folding />
             </state>
           </provider>
@@ -249,9 +241,9 @@
     <frame x="65" y="24" width="2495" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.07996736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -409,16 +401,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="2" selection-start="490" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="1850">
+        <state line="29" column="0" selection-start="443" selection-end="443" vertical-scroll-proportion="-4.2982454" vertical-offset="277" max-vertical-offset="1937">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/responsive.css">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="19" selection-start="697" selection-end="697" vertical-scroll-proportion="0.618929" vertical-offset="277" max-vertical-offset="1937">
+        <state line="27" column="37" selection-start="635" selection-end="635" vertical-scroll-proportion="0.5651163" vertical-offset="0" max-vertical-offset="1850">
           <folding />
         </state>
       </provider>
