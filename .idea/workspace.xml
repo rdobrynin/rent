@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="885f26eb-0ed7-4fcc-b623-02d3880bf7ae" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/responsive.css" afterPath="$PROJECT_DIR$/css/responsive.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,9 +31,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="16" selection-start="1012" selection-end="1012" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="1607">
+            <state line="32" column="117" selection-start="1579" selection-end="1579" vertical-scroll-proportion="-17.333334" vertical-offset="108" max-vertical-offset="1733">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar_photo@2x.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/sidebar_photo@2x.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -54,7 +63,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="16" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.43953487" vertical-offset="954" max-vertical-offset="2696">
+            <state line="95" column="1" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.4627404" vertical-offset="1325" max-vertical-offset="3370">
               <folding />
             </state>
           </provider>
@@ -63,7 +72,7 @@
       <file leaf-file-name="responsive.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="5" selection-start="698" selection-end="698" vertical-scroll-proportion="-8.403509" vertical-offset="277" max-vertical-offset="2999">
+            <state line="55" column="0" selection-start="887" selection-end="887" vertical-scroll-proportion="-14.392858" vertical-offset="587" max-vertical-offset="3190">
               <folding />
             </state>
           </provider>
@@ -200,6 +209,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -400,13 +410,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="16" selection-start="1012" selection-end="1012" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="1607">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -419,16 +422,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/sidebar_photo@2x.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="117" selection-start="1579" selection-end="1579" vertical-scroll-proportion="-17.333334" vertical-offset="108" max-vertical-offset="1733">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="5" selection-start="698" selection-end="698" vertical-scroll-proportion="-8.403509" vertical-offset="277" max-vertical-offset="2999">
+        <state line="55" column="0" selection-start="887" selection-end="887" vertical-scroll-proportion="-14.392858" vertical-offset="587" max-vertical-offset="3190">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="16" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.43953487" vertical-offset="954" max-vertical-offset="2696">
+        <state line="95" column="1" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.4627404" vertical-offset="1325" max-vertical-offset="3370">
           <folding />
         </state>
       </provider>
