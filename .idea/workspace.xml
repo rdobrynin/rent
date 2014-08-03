@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="885f26eb-0ed7-4fcc-b623-02d3880bf7ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sidebar_photo.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/responsive.css" afterPath="$PROJECT_DIR$/css/responsive.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -74,11 +71,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="163" column="497" selection-start="3378" selection-end="3378" vertical-scroll-proportion="-12.964286" vertical-offset="2571" max-vertical-offset="5067">
-              <folding />
+            <state line="198" column="23" selection-start="5239" selection-end="5239" vertical-scroll-proportion="0.5531136" vertical-offset="3201" max-vertical-offset="5067">
+              <folding>
+                <element signature="e#2897#3812#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,10 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responsive.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="responsive.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="1" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.5889423" vertical-offset="2462" max-vertical-offset="3766">
+            <state line="130" column="19" selection-start="2239" selection-end="2239" vertical-scroll-proportion="-5.285714" vertical-offset="2192" max-vertical-offset="3766">
               <folding />
             </state>
           </provider>
@@ -115,8 +114,8 @@
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/modal.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -345,7 +344,9 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="0" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1044">
-          <folding />
+          <folding>
+            <element signature="e#2897#3812#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -370,7 +371,9 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="1" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1062">
-          <folding />
+          <folding>
+            <element signature="e#2897#3812#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -395,7 +398,9 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="1" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="936">
-          <folding />
+          <folding>
+            <element signature="e#2897#3812#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -420,7 +425,9 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="1" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="738">
-          <folding />
+          <folding>
+            <element signature="e#2897#3812#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -438,7 +445,9 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="1" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="90">
-          <folding />
+          <folding>
+            <element signature="e#2897#3812#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -476,6 +485,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="19" selection-start="2239" selection-end="2239" vertical-scroll-proportion="-5.285714" vertical-offset="2192" max-vertical-offset="3766">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="139" column="7" selection-start="5849" selection-end="5849" vertical-scroll-proportion="-36.62963" vertical-offset="1513" max-vertical-offset="3317">
@@ -489,15 +505,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="497" selection-start="3378" selection-end="3378" vertical-scroll-proportion="-12.964286" vertical-offset="2571" max-vertical-offset="5067">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="1" selection-start="2675" selection-end="2675" vertical-scroll-proportion="0.5889423" vertical-offset="2462" max-vertical-offset="3766">
-          <folding />
+        <state line="198" column="23" selection-start="5239" selection-end="5239" vertical-scroll-proportion="0.5531136" vertical-offset="3201" max-vertical-offset="5067">
+          <folding>
+            <element signature="e#2897#3812#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
