@@ -52,6 +52,7 @@
 
     aside {
         width: 39%;
+        height: 100%;
     }
 
     .slogan {
@@ -77,10 +78,10 @@
 
     aside {
         position: relative;
-        height: 300px;
         width: 100%;
         bottom: 0;
         margin: 0 auto;
+        height: 373px;
     }
 
     .slogan {
@@ -103,6 +104,10 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+    }
+
+    footer {
+        bottom: 20px;
     }
 }
 

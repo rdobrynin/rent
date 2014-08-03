@@ -15,6 +15,13 @@
     <link href="css/responsive.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <!--[if gte IE 9]>
+    <style type="text/css">
+        .gradient {
+            filter: none;
+        }
+    </style>
+    <![endif]-->
     <!-- IE -->
     <!--[if lt IE 9]>
     <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -29,7 +36,7 @@
 </head>
 <body>
 <div class="wrapper">
-    <div class="logo-wrapper">
+    <div class="logo-wrapper hidden-xs">
         <div class="logo"><img class="logo-img" src="images/logo.png" width="70" height="70" alt="boats-and_planes"/>
         </div>
         <span class="logo-title">boats & planes</span>
@@ -39,8 +46,10 @@
     <h2>Boats for rent</h2>
     <div class="thumb-wrapper">
         <h3>Cruisers Yetchs 300 cxi</h3>
-        <div class="thumb-container">
-            <!--<img class="thumb" src="images/sidebar_photo@2x.jpg" width="242" height="150" alt="boats-and_planes"/>-->
+        <div class="thumb-pos">
+            <div class="thumb-container">
+        </div>
+            <div id="booknow" class="btn btn-primary">book now</div>
         </div>
     </div>
 </aside>
