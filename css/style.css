@@ -67,6 +67,7 @@ aside {
 
 .logo-title {
     font-size: 18px;
+    text-shadow: 1px 0 0 #fff;
     font-weight: 400;
     text-transform: capitalize;
     position: absolute;
@@ -84,11 +85,13 @@ aside {
 .slogan {
     font-weight: 400;
     font-size: 121px;
+    text-shadow: 1px 0 0 #fff;
     line-height: 120px;
 }
 
 .region-title {
     font-weight: 400;
+    text-shadow: 1px 0 0 #fff;
     font-size: 33px;
 }
 
