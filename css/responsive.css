@@ -1,9 +1,21 @@
 /* Large desktop */
 
 
-@media (min-width: 1400px) and (max-width:3000px ) {
+@media (min-width: 1400px) and (max-width:1900px ) {
     aside {
-        width: 18%;
+        width: 20% !important;
+    }
+}
+
+@media (min-width: 2301px) and (max-width:4000px ) {
+    aside {
+        width: 16% !important;
+    }
+}
+
+@media (min-width: 1899px) and (max-width:2300px ) {
+    aside {
+        width: 18% !important;
     }
 }
 
@@ -17,13 +29,36 @@
     aside {
         width: 30%;
     }
+
+
+    .slogan {
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 91px;
+    }
+
+    .region-title {
+        font-weight: 400;
+        font-size: 22px;
+    }
 }
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
 
     aside {
-        width: 35%;
+        width: 34%;
+    }
+
+    .slogan {
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 61px;
+    }
+
+    .region-title {
+        font-weight: 400;
+        font-size: 17px;
     }
 
 }
@@ -37,6 +72,17 @@
         width: 100%;
         bottom: 0;
         margin: 0 auto;
+    }
+
+    .slogan {
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 61px;
+    }
+
+    .region-title {
+        font-weight: 400;
+        font-size: 17px;
     }
 
     body {
@@ -61,5 +107,18 @@
         bottom: 0;
         margin: 0 auto;
     }
+
+
+    .slogan {
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 46px;
+    }
+
+    .region-title {
+        font-weight: 400;
+        font-size: 13px;
+    }
+
 
 }
