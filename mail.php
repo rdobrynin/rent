@@ -26,8 +26,8 @@ if (empty($error1) and empty($error2) and empty($error3)) {
     '.$_POST['comments'];
     require 'class.phpmailer.php';
     $mail = new PHPMailer();
-    $mail->From = 'noreply@flight-support';
-    $mail->FromName = 'Flight-Support.eu';
+    $mail->From = 'roman.d@brilliant-solutions.eu';
+    $mail->FromName = 'Boats and Planes Ltd.';
     $mail->AddAddress('info@flight-support.eu', 'Flight Support Ltd');
     $mail->IsHTML(true);
     $mail->Subject = 'Send message to our specialists';

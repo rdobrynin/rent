@@ -27,6 +27,33 @@ $(function () {
         }
     });
 
+
+
+
+    $('#apply-contact-form').on('click', function () {
+        if ($("#contact-page-form").valid()) {
+            $("#apply-contact-form").replaceWith("<div class='loading'style='text-align:center;'><em>Applying...&nbsp;</em></div>");
+
+            $.ajax({
+                type: 'POST',
+                url: 'mail.php',
+                data: $("#contact-page-form").serialize(),
+                success: function (data) {
+                    $( "#alert" ).show();
+                    $( '#alert' ).html( "Thank you for contact with us!" );
+                    $('.contact-slide').css("paddingBottom", "180px");
+                    $('#book').modal('hide');
+                    $('#alert').delay(1500).fadeOut();
+
+                },
+                error: function(){
+                    $(".loading").replaceWith("<div class='loading'style='text-align:center; color:#ffae00;'><em>Message did not sent! Error.</em></div>");
+                }
+            });
+
+        }
+    });
+
 });
 
 
