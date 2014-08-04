@@ -31,7 +31,7 @@ font-size: 22px;
 h3 {
     color: #757575;
     font-weight: 400;
-    text-shadow: 1px 0 0 #757575;
+    text-shadow: 0.4px 0 0 #757575;
     text-align: center;
     font-size: 16px;
 }
@@ -51,7 +51,7 @@ a, a:hover {
     background: url(../images/sidebar_photo.jpg) no-repeat top;
     background-size: 242px 150px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .thumb-pos {
@@ -63,7 +63,7 @@ body {
     margin: 0;
     padding: 0;
     color: #fff;
-    background: url(../images/bg.jpg) no-repeat left top fixed;
+    background: url(../images/bg.jpg) no-repeat  top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -88,9 +88,13 @@ aside {
     z-index: 1000;
 }
 
+.resp-title {
+    display: none;
+}
+
 .thumb-wrapper {
     background-color: #fff;
-    width: 90%;
+    width: 280px;
     margin: 0 auto;
     position: relative;
     padding: 10px 20px 10px 20px;
@@ -100,21 +104,21 @@ aside {
     position: relative;
     float: left;
     top: 0;
-    padding-left: 67px;
+    padding-left: 63px;
     padding-top: 10px;
     z-index: 9999;
 }
 
 .logo-title {
     font-size: 18px;
-    text-shadow: 1px 0 0 #fff;
+    text-shadow: 0.5px 0 0 #fff;
     font-weight: 400;
     text-transform: capitalize;
     position: absolute;
-    left: 0;
     width: 136%;
     text-align: center;
     padding-top: 5px;
+    left: 3px;
 }
 
 .slogan, .region-title {
@@ -125,13 +129,13 @@ aside {
 .slogan {
     font-weight: 400;
     font-size: 121px;
-    text-shadow: 1px 0 0 #fff;
+    text-shadow:0.5px 0 0 #fff;
     line-height: 120px;
 }
 
 .region-title {
     font-weight: 400;
-    text-shadow: 1px 0 0 #fff;
+    text-shadow: 0.5px 0 0 #fff;
     font-size: 33px;
 }
 
@@ -144,7 +148,7 @@ footer {
 #booknow {
 text-transform: uppercase;
     color: #fff;
-    text-shadow: 1px 0 0 #fff;
+    text-shadow: 0.5px 0 0 #fff;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
@@ -172,7 +176,7 @@ text-transform: uppercase;
 }
 
 hr {
-    width: 90%;
+    width: 280px;
     color: #fff;
 margin-top: 25px;
     margin-bottom: 25px;
