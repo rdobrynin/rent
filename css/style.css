@@ -79,7 +79,6 @@ body {
 }
 
 aside {
-
     height: 100%;
     position: fixed;
     background: none repeat scroll 0 0 rgba(6, 30, 61, 0.94);
@@ -94,7 +93,7 @@ aside {
 
 .info {
     padding-bottom: 10px;
-    color:#10C3FC;
+    color:#a2acb8;
 }
 
 .thumb-wrapper {
@@ -123,7 +122,7 @@ aside {
     width: 136%;
     text-align: center;
     padding-top: 5px;
-    left: 3px;
+    left: 8px;
 }
 
 .slogan, .region-title {
