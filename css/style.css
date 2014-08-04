@@ -92,6 +92,11 @@ aside {
     display: none;
 }
 
+.info {
+    padding-bottom: 10px;
+    color:#10C3FC;
+}
+
 .thumb-wrapper {
     background-color: #fff;
     width: 280px;

@@ -11,21 +11,10 @@
     background-color:#333;
 }
 
-/* custom animation */
-/*.modal.fade {*/
-    /*left: -50%;*/
-    /*-webkit-transition: opacity 0.3s linear, left 0.3s ease-out;*/
-    /*-moz-transition: opacity 0.3s linear, left 0.3s ease-out;*/
-    /*-o-transition: opacity 0.3s linear, left 0.3s ease-out;*/
-    /*transition: opacity 0.3s linear, left 0.3s ease-out;*/
-/*}*/
-
-/*.modal.fade.in {*/
-    /*left: 100px;*/
-/*}*/
 
 .modal-title {
     text-shadow: 0.3px 0 0 #fff;
+    font-size: 27px;
 }
 
 
