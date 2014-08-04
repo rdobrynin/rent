@@ -8,7 +8,21 @@ $(window).on("load", function() {
 
 $(function () {
 
+    $('#booknow').click(function () {
+        $('form')[0].reset();
 
+        $(':input','#contact-page-form')
+            .not(':button, :submit, :reset, :hidden')
+            .val('')
+            .removeAttr('checked')
+            .removeAttr('selected');
+        $('.error-block').hide();
+
+    });
+
+    $('#apply-contact-form').click(function () {
+        $('.error-block').show();
+    });
 
     $('#contact-page-form').validate(
         {
